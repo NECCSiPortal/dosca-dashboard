@@ -1,0 +1,12 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+{% block form_attrs %}enctype="multipart/form-data"{% endblock %}
+{% block modal-body-right %}
+  <h3>{% trans "Description:" %}</h3>
+  <p>{% trans "Upload compressed template file for cloudify(TOSCA Format)." %}</p>
+{% endblock %}
+
+{% block modal-footer %}
+  <a href="{{ action_url }}" class="btn btn-default cancel">{{ cancel_label }}</a>
+  <input class="btn btn-primary pull-right" type="submit" value="{{ submit_label }}" />
+{% endblock %}

@@ -1,0 +1,18 @@
+{
+    "context_is_admin":  "role:admin",
+    "allow_tosca_provision": "role:T__DC*__ToscaProvision or role:admin",
+    "default": "",
+
+    "tosca:template_list": "rule:allow_tosca_provision",
+    "tosca:template_upload": "rule:allow_tosca_provision",
+    "tosca:template_download": "rule:allow_tosca_provision",
+    "tosca:template_delete": "rule:allow_tosca_provision",
+    "tosca:deployment_create": "rule:allow_tosca_provision",
+    "tosca:deployment_list": "rule:allow_tosca_provision",
+    "tosca:deployment_delete": "rule:allow_tosca_provision",
+    "tosca:execution_install": "rule:allow_tosca_provision",
+    "tosca:execution_uninstall": "rule:allow_tosca_provision",
+    "tosca:execution_cancel": "rule:allow_tosca_provision",
+    "tosca:event_list": "rule:allow_tosca_provision",
+    "tosca:event_get": "rule:allow_tosca_provision"
+}

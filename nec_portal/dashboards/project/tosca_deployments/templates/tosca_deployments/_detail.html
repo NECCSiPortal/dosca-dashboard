@@ -1,0 +1,10 @@
+{% load i18n sizeformat %}
+
+<h3>{% trans "All events and logs" %}</h3>
+
+{% block information %}
+  <div class="detail tosca_detail">
+    <hr class="header_rule">
+    <pre>{{ message }}</pre>
+  </div>
+{% endblock %}

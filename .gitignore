@@ -1,0 +1,7 @@
+/.project
+.pydevproject
+.coverage
+*.pyc
+/run_pep8.sh
+/coverage.xml
+/.horizon

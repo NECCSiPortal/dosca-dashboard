@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# COPYRIGHT  (C)  NEC  CORPORATION  2016
+# This file is distributed under the same license as the PACKAGE package.
+#
+#, fuzzy
+
+#: dashboards/project/tosca_deployments/tables.py
+msgid "Name of deployment"
+msgstr "デプロイメント名"
+
+#: dashboards/project/tosca_deployments/tables.py:117
+#: dashboards/project/tosca_deployments/forms.py:44
+msgid "Deployment Name"
+msgstr "デプロイメント名"
+
+#: dashboards/project/tosca_deployments/forms.py:47
+msgid "Input deployment name."
+msgstr "デプロイメント名を入力"
+
+#: dashboards/project/tosca_deployments/forms.py:132
+msgid "An error has occurred while processing your request."
+msgstr "要求処理実行中にエラーが発生しました"
+
+#: dashboards/project/tosca_deployments/forms.py:135
+#: dashboards/project/tosca_templates/forms.py:74
+msgid "Succeeded to registrate a request."
+msgstr "要求を正常に処理しました"
+
+#: dashboards/project/tosca_deployments/panel.py:25
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/index.html:3
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/index.html:6
+msgid "Deployments"
+msgstr "デプロイメント"
+
+#: dashboards/project/tosca_deployments/tables.py:31
+#: dashboards/project/tosca_deployments/tables.py:37
+msgid "Execute Install"
+msgstr "インストールの実行"
+
+#: dashboards/project/tosca_deployments/tables.py:41
+msgid "Executed Install"
+msgstr "インストールを実行しました"
+
+#: dashboards/project/tosca_deployments/tables.py:50
+#: dashboards/project/tosca_deployments/tables.py:55
+msgid "Execute Uninstall"
+msgstr "アンインストールの実行"
+
+#: dashboards/project/tosca_deployments/tables.py:59
+msgid "Executed Uninstall"
+msgstr "アンインストールを実行しました"
+
+#: dashboards/project/tosca_deployments/tables.py:68
+#: dashboards/project/tosca_deployments/tables.py:73
+#: dashboards/project/tosca_deployments/tables.py:77
+msgid "Delete Deployment"
+msgstr "デプロイメントの削除"
+
+#: dashboards/project/tosca_deployments/tables.py:86
+#: dashboards/project/tosca_deployments/tables.py:91
+msgid "Cancel Execution"
+msgstr "操作のキャンセル"
+
+#: dashboards/project/tosca_deployments/tables.py:95
+msgid "Canceled Execution"
+msgstr "操作をキャンセルしました"
+
+#: dashboards/project/tosca_deployments/tables.py:120
+#: dashboards/project/tosca_templates/forms.py:35
+#: dashboards/project/tosca_templates/tables.py:83
+msgid "Template Name"
+msgstr "テンプレート名"
+
+#: dashboards/project/tosca_deployments/tables.py:122
+#: dashboards/project/tosca_deployments/tables.py:149
+#: dashboards/project/tosca_templates/tables.py:85
+msgid "Created At"
+msgstr "作成日時"
+
+#: dashboards/project/tosca_deployments/tables.py:140
+msgid "Execution ID"
+msgstr "操作ID"
+
+#: dashboards/project/tosca_deployments/tables.py:143
+msgid "Workflow ID"
+msgstr "ワークフローID"
+
+#: dashboards/project/tosca_deployments/tables.py:145
+msgid "Status"
+msgstr "ステータス"
+
+#: dashboards/project/tosca_deployments/tables.py:147
+msgid "Error"
+msgstr "エラー"
+
+#: dashboards/project/tosca_deployments/tabs.py:21
+msgid "Overview"
+msgstr "概要"
+
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/_create.html:5
+#: dashboards/project/tosca_templates/templates/tosca_templates/_upload.html:5
+msgid "Description:"
+msgstr "概要"
+
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/_create.html:6
+msgid "Create a deployment from template."
+msgstr "テンプレートからデプロイメントを作成する"
+
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/_detail.html:3
+msgid "All events and logs"
+msgstr "イベントおよびログ"
+
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/create.html:3
+#: dashboards/project/tosca_deployments/views.py:132
+#: dashboards/project/tosca_deployments/views.py:133
+#: dashboards/project/tosca_templates/tables.py:42
+msgid "Create Deployment"
+msgstr "デプロイメント作成"
+
+#: dashboards/project/tosca_deployments/templates/tosca_deployments/execution.html:3
+msgid "Executions"
+msgstr "実行操作"
+
+#: dashboards/project/tosca_deployments/views.py:74
+msgid "Unable to retrieve deployments."
+msgstr "デプロイメントを取得できませんでした"
+
+#: dashboards/project/tosca_deployments/views.py:101
+msgid "Executions of deployment"
+msgstr "デプロイメントの実行操作"
+
+#: dashboards/project/tosca_deployments/views.py:110
+msgid "Unable to retrieve executions."
+msgstr "実行操作を取得できませんでした"
+
+#: dashboards/project/tosca_deployments/views.py:136
+msgid "Create a Deployment"
+msgstr "デプロイメントを作成する"
+
+#: dashboards/project/tosca_deployments/views.py:157
+msgid "Unable to retrieve template."
+msgstr "テンプレートを取得できませんでした"
+
+#: dashboards/project/tosca_deployments/views.py:187
+msgid "Event Logs of execution"
+msgstr "実行操作のイベントログ"
+
+#: dashboards/project/tosca_deployments/views.py:197
+msgid "Unable to retrieve event logs."
+msgstr "イベントログを取得できませんでした"
+
+#: dashboards/project/tosca_templates/forms.py:38
+msgid "Input template name."
+msgstr "テンプレート名を入力"
+
+#: dashboards/project/tosca_templates/forms.py:40
+msgid "Template File"
+msgstr "テンプレートファイル"
+
+#: dashboards/project/tosca_templates/forms.py:41
+msgid "A local compressed template file to upload."
+msgstr "ローカルの圧縮したテンプレートファイルをアップロードします"
+
+#: dashboards/project/tosca_templates/panel.py:25
+#: dashboards/project/tosca_templates/templates/tosca_templates/index.html:3
+#: dashboards/project/tosca_templates/templates/tosca_templates/index.html:6
+msgid "Templates"
+msgstr "テンプレート"
+
+#: dashboards/project/tosca_templates/tables.py:31
+#: dashboards/project/tosca_templates/views.py:86
+#: dashboards/project/tosca_templates/views.py:87
+#: dashboards/project/tosca_templates/templates/tosca_templates/upload.html:3
+msgid "Upload Template"
+msgstr "テンプレートのアップロード"
+
+#: dashboards/project/tosca_templates/tables.py
+msgid "Delete Template"
+msgstr "テンプレートの削除"
+
+#: dashboards/project/tosca_templates/tables.py:62
+msgid "Deleted Tepmlate"
+msgstr "テンプレートを削除しました"
+
+#: dashboards/project/tosca_templates/tables.py:71
+msgid "Download Template"
+msgstr "テンプレートのダウンロード"
+
+#: dashboards/project/tosca_templates/templates/tosca_templates/_upload.html:6
+msgid "Upload compressed template file for cloudify(TOSCA Format)."
+msgstr "Cloudifyに圧縮したテンプレートファイルをアップロードします"
+
+#: dashboards/project/tosca_templates/views.py:64
+msgid "Unable to retrieve TOSCA templates."
+msgstr "TOSCAテンプレートを取得できませんでした"
+
+#: dashboards/project/tosca_templates/views.py:91
+msgid "Upload a Template"
+msgstr "テンプレートをアップロードします"
+
+#: dashboards/project/tosca_templates/views.py:139
+msgid "Unable to download TOSCA templates."
+msgstr "TOSCAテンプレートをダウンロードできませんでした"
